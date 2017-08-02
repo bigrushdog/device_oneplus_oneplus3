@@ -193,6 +193,9 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libtinyxml
 
+PRODUCT_PROPERTY_OVERRIDES  += \
+    ro.opengles.version=196610
+
 # Display calibration
 PRODUCT_PACKAGES += \
     FOSSConfig.xml \
