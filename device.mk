@@ -157,6 +157,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/iot_devlist.conf:system/etc/bluetooth/iot_devlist.conf
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    qcom.bluetooth.soc=rome
+
 # Camera
 PRODUCT_PACKAGES += \
     libcamera_shim \
