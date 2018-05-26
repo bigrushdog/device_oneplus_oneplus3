@@ -23,6 +23,8 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 # Inherit some common gzosp stuff.
 $(call inherit-product, vendor/invictrix/config/common_full_phone.mk)
 
+INVICTRIX_MAINTAINER := bigrushdog
+
 PRODUCT_NAME := invictrix_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
