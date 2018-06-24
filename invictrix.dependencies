@@ -10,7 +10,7 @@
     "branch": "inv-8.1"
   },
   {
-    "repository": "InvictrixRom-devices/vendor_oneplus",
+    "repository": "InvictrixRom-devices/vendor_oneplus-new",
     "target_path": "vendor/oneplus",
     "branch": "inv-8.1"
   }
