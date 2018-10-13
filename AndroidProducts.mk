@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/gzosp_oneplus3.mk
+        $(LOCAL_DIR)/invictrix_oneplus3.mk
