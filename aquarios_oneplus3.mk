@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Invictrix stuff.
-$(call inherit-product, vendor/invictrix/config/common_full_phone.mk)
+$(call inherit-product, vendor/aquarios/config/common_full_phone.mk)
 
 # Inherit from oneplus3 device
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
@@ -28,7 +28,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := invictrix_oneplus3
+PRODUCT_NAME := aquarios_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
