@@ -496,4 +496,4 @@ ro.secure=0 \
 ro.debuggable=1
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+$(call inherit-product, device/oneplus/common/common.mk)
